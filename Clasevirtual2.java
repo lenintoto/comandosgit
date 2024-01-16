@@ -7,7 +7,8 @@ public class Clasevirtual2{
         String dbUsername = "root";
         String dbPassword = "Analisis2023B*";
         Scanner scanner = new Scanner(System.in);
-
+//CRUD MYSql-Java
+        //Agregar
         /*try{
              Class.forName("com.mysql.cj.jdbc.Driver");
              Connection conn = DriverManager.getConnection(dbURL, dbUsername, dbPassword);
@@ -74,7 +75,7 @@ public class Clasevirtual2{
         } catch (Exception exception){
             System.out.println("Error: " + exception.getMessage());
         }*/
-
+        //Modificar
         /*try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             Connection conn = DriverManager.getConnection(dbURL, dbUsername, dbPassword);
@@ -103,7 +104,7 @@ public class Clasevirtual2{
         }catch (Exception exception){
                 System.out.println("Error: " + exception.getMessage());
         }*/
-
+        //Modificar
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             Connection conn = DriverManager.getConnection(dbURL, dbUsername, dbPassword);
