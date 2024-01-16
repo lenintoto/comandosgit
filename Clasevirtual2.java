@@ -1,4 +1,4 @@
-import java.sql.*;
+minaimport java.sql.*;
 import java.util.Scanner;
 
 public class Clasevirtual2{
@@ -104,7 +104,7 @@ public class Clasevirtual2{
         }catch (Exception exception){
                 System.out.println("Error: " + exception.getMessage());
         }*/
-        //Modificar
+        //Eliminar
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             Connection conn = DriverManager.getConnection(dbURL, dbUsername, dbPassword);
