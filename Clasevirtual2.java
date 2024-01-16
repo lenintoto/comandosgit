@@ -118,6 +118,12 @@ public class Clasevirtual2{
 
             statement.setInt(1,id);
 
+            int rowsUpdated = statement.executeUpdate();
+
+            if(rowsUpdated > 0){
+                System.out.println("Se eliminó el registro exitosamente");
+            }
+
             scanner.close();
         }catch (Exception exception){
             System.out.println("Error: " + exception.getMessage());
